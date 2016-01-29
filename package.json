@@ -4,7 +4,7 @@
   "description": "Command line app to send remote control commands to a Sky TV box",
   "main": "sky-remote-cli.js",
   "dependencies": {
-    "sky-remote": "^1.0.1"
+    "sky-remote": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {
