@@ -1,0 +1,28 @@
+{
+  "name": "sky-remote-cli",
+  "version": "1.0.0",
+  "description": "Command line app to send remote control commands to a Sky TV box",
+  "main": "sky-remote-cli.js",
+  "dependencies": {
+    "sky-remote": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalhundal/sky-remote-cli.git"
+  },
+  "keywords": [
+    "Sky",
+    "Remote"
+  ],
+  "author": "Dal Hundal",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/dalhundal/sky-remote-cli/issues"
+  },
+  "homepage": "https://github.com/dalhundal/sky-remote-cli#readme",
+  "readmeFilename": "README.md"
+}
