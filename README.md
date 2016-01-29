@@ -23,7 +23,7 @@ sky-remote-cli 192.168.0.40 power
 
 ###### Channel up, pause, show info
 ```
-sky-remote-cli 192.168.0.40 channelup pause info
+sky-remote-cli 192.168.0.40 channelup pause i
 ```
 
 ###### Change channel to 101
