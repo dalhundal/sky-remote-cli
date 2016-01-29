@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var SkyRemote = require('sky-remote');
 
 var args = process.argv.splice(2);

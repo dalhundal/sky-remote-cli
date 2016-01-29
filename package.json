@@ -24,5 +24,6 @@
     "url": "https://github.com/dalhundal/sky-remote-cli/issues"
   },
   "homepage": "https://github.com/dalhundal/sky-remote-cli#readme",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "bin": "sky-remote-cli.js"
 }
