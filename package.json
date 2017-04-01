@@ -19,7 +19,7 @@
     "Remote"
   ],
   "author": "Dal Hundal",
-  "license": "Unlicense",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dalhundal/sky-remote-cli/issues"
   },
