@@ -1,8 +1,8 @@
-#sky-remote-cli
+# sky-remote-cli
 
-A command line app to send remote control commands to a Sky TV box.
+A command line app to send remote control commands to a Sky TV box. Compatible with Sky+HD and Sky Q.
 
-##Usage
+## Usage
 
 #### Installation
 
@@ -14,11 +14,17 @@ npm install -g sky-remote-cli
 
 #### Controlling a Sky TV box
 
-The first argument must be the IP address of the Sky box you want to control. All arguments after that are commands to send to the box - you can send just one command or many at once (they will be sent in sequence).
+The first argument must be the IP address of the Sky box you want to control. All arguments after that are commands to send to the box - you can send just one command or many at once (they will be sent in sequence). If connecting to a Sky Q box, pass the `--sky_q` flag.
 
 ###### Turn the box on / off
 ```
 sky-remote-cli 192.168.0.40 power
+```
+
+*or, for Sky Q:*
+
+```
+sky-remote-cli --sky_q 192.168.0.40 power
 ```
 
 ###### Channel up, pause, show info
@@ -35,16 +41,22 @@ sky-remote-cli 192.168.0.40 1 0 1
 
 `sky` `power`
 
-`tvguide` `boxoffice` `services` `interactive`
+`tvguide` or `home` `boxoffice` `services` or `search` `interactive` or `sidebar`
 
 `up` `down` `left` `right` `select`
 
 `channelup` `channeldown` `i`
 
-`backup` `text` `help`
+`backup` or `dismiss` `text` `help`
 
 `play` `pause` `rewind` `fastforward` `stop` `record`
 
 `red` `green` `yellow` `blue`
 
 `0` `1` `2` `3` `4` `5` `6` `7` `8` `9`
+
+
+## See also
+
+- http://github.com/dalhundal/sky-remote - The underlying Node module used by this tool
+- http://github.com/dalhundal/sky-q - A Node module for interacting with Sky Q boxes

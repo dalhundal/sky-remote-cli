@@ -1,10 +1,11 @@
 {
   "name": "sky-remote-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Command line app to send remote control commands to a Sky TV box",
   "main": "sky-remote-cli.js",
   "dependencies": {
-    "sky-remote": "^1.0.2"
+    "minimist": "^1.2.0",
+    "sky-remote": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
