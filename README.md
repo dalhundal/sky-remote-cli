@@ -14,17 +14,17 @@ npm install -g sky-remote-cli
 
 #### Controlling a Sky TV box
 
-The first argument must be the IP address of the Sky box you want to control. All arguments after that are commands to send to the box - you can send just one command or many at once (they will be sent in sequence). If connecting to a Sky Q box, pass the `--sky_q` flag.
+The first argument must be the IP address of the Sky box you want to control. All arguments after that are commands to send to the box - you can send just one command or many at once (they will be sent in sequence). If connecting to a Sky Q box running formware older than v0.60, pass the `--sky_q_legacy` flag. The previously used `--sky_q` flag now has no impact (but is still accepted for compatability).
 
 ###### Turn the box on / off
 ```
 sky-remote-cli 192.168.0.40 power
 ```
 
-*or, for Sky Q:*
+*or, for Sky Q (with older firmware <0.60):*
 
 ```
-sky-remote-cli --sky_q 192.168.0.40 power
+sky-remote-cli --sky_q_legacy 192.168.0.40 power
 ```
 
 ###### Channel up, pause, show info
